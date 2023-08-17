@@ -17,7 +17,6 @@ Welcome to my portfolio website! This project showcases a collection of my work,
 
 - React
 - Tailwind CSS
-- [Any other technologies you've used in your project]
 
 ## Usage
 
@@ -26,7 +25,7 @@ Welcome to my portfolio website! This project showcases a collection of my work,
 3. Install dependencies: `npm install`
 4. Start the development server: `npm run dev`
 
-The portfolio will be available at *coming soon*
+The portfolio will be available at ***coming soon***
 
 ## Contributions
 
