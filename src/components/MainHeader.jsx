@@ -4,7 +4,7 @@ import { Menu } from "./Menu";
 
 export function MainHeader(){
    return (
-      <header className="dark:text-white flex h-16 justify-between items-center px-7 py-4">
+      <header className="dark:text-white flex fixed h-16 justify-between items-center px-7 py-4 w-full z-20 backdrop-blur-md">
          <strong className="text-xl">ESALU</strong>
          <div className="flex gap-4">
             <ul className="sm:flex gap-4 hidden items-center">
