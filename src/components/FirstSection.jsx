@@ -11,7 +11,7 @@ export function FirstSection(){
          <aside className="text-center mt-14 mb-6">
             <p className="dark:text-light-green-800 font-bold text-lg text-emerald-800">Hello! I&apos;m</p>
             <h2 className="font-bold text-4xl dark:text-light-green-200">Emilio Salas</h2>
-            <h3 className="dark:text-pastel-green font-bold text-pastel-green-900 text-2xl">Front-End Developer & <span className="dark:text-white text-aqua-green-800">Music Composer</span></h3>
+            <h3 className="dark:text-pastel-green font-bold text-pastel-green-900 text-xl">Front-End Developer & <span className="dark:text-white text-aqua-green-800">Music Composer</span></h3>
          </aside>
          <footer className="flex gap-2">
             <GithubButton/>
