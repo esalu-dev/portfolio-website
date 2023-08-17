@@ -3,6 +3,7 @@ import { FirstSection } from "./components/FirstSection"
 import { AboutMe } from "./components/AboutMe"
 import { useState } from "react"
 import ThemeContext from "./context/ThemeContext"
+import { Projects } from "./components/Project"
 
 function App() {
   const [theme, setTheme] = useState("dark")
@@ -18,6 +19,7 @@ function App() {
           <MainHeader/>
           <FirstSection/>
           <AboutMe/>
+          <Projects/>
         </div>
       </main>
     </ThemeContext.Provider>
