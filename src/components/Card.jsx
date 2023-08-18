@@ -1,7 +1,6 @@
 import { CardButton } from "./CardButton"
 import { useState } from "react"
-import PropTypes from 'propTypes'
-
+import PropTypes from 'prop-types'
 Card.propTypes = {
    title: PropTypes.string.isRequired,
    imgURL: PropTypes.string.isRequired,
