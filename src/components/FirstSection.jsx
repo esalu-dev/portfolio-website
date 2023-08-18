@@ -18,7 +18,7 @@ export function FirstSection(){
       <section id="first-section" className="w-full h-[600px] flex flex-col items-center pt-20 mb-10">
          <div onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} className="w-64 relative animate-fade-up animate-delay-[20ms] animate-ease-in-out">
             <img className={`${active ? 'animate-wiggle animate-infinite animate-duration-[550ms] animate-ease-in-out' : ''} transition-transform z-10 rounded-full relative border-4 border-emerald-600 dark:border-light-green`} src="https://avatars.githubusercontent.com/u/66653779?v=4" alt="Fotografía de Emilio Salas"/>
-            <span className={`${active ? 'animate-spin animate-infinite animate-duration-1000' : ''} transition-transform w-64 h-64 rounded-full bg-gradient-to-bl from-aqua-green-700 to-pastel-green-800 dark:bg-gradient-to-bl dark:from-pastel-green-800 dark:to-emerald absolute top-4 left-4 opacity-70 shadow-2xl`}></span>
+            <span className={`${active ? 'animate-spin animate-infinite animate-duration-1000 animate-ease-in-out' : ''} transition-transform w-64 h-64 rounded-full bg-gradient-to-bl from-aqua-green-700 to-pastel-green-800 dark:bg-gradient-to-bl dark:from-pastel-green-800 dark:to-emerald absolute top-4 left-4 opacity-70 shadow-2xl`}></span>
          </div>
          <aside className="text-center mt-14 mb-6">
             <p className="animate-fade-up animate-delay-[200ms] animate-ease-in-out dark:text-light-green-800 font-bold text-lg text-emerald-800">Hello! I&apos;m</p>
