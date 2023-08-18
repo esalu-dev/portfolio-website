@@ -1,5 +1,15 @@
 import { CardButton } from "./CardButton"
 import { useState } from "react"
+import PropTypes from 'propTypes'
+
+Card.propTypes = {
+   title: PropTypes.string.isRequired,
+   imgURL: PropTypes.string.isRequired,
+   contentFirstButton: PropTypes.string.isRequired,
+   linkFirstButton: PropTypes.string.isRequired,
+   contentSecondButton: PropTypes.string.isRequired,
+   linkSecondButton: PropTypes.string.isRequired,
+}
 
 export function Card({title, imgURL, contentFirstButton, linkFirstButton, contentSecondButton, linkSecondButton}) {
    const [active, setActive] = useState(false)
